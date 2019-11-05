@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+before_main	code2/test2.c	/^static void __attribute__((constructor)) before_main()$/;"	f	language:C	file:
+before_main	test1.c	/^static void __attribute__((constructor)) before_main()$/;"	f	language:C	file:
+callback1	code2/test2.c	/^static void callback1(void)$/;"	f	language:C	file:	signature:(void)
+callback1	test1.c	/^static void callback1(void)$/;"	f	language:C	file:	signature:(void)
+callback2	code2/test2.c	/^static void callback2(void)$/;"	f	language:C	file:	signature:(void)
+callback2	test1.c	/^static void callback2(void)$/;"	f	language:C	file:	signature:(void)
+callback3	code2/test2.c	/^static void callback3(void)$/;"	f	language:C	file:	signature:(void)
+callback3	test1.c	/^static void callback3(void)$/;"	f	language:C	file:	signature:(void)
+main	caller1.c	/^int main()$/;"	f	language:C
+main	code2/test2.c	/^int main(int argc,char *argv[])$/;"	f	language:C	signature:(int argc,char *argv[])
+main	test1.c	/^int main(int argc,char *argv[])$/;"	f	language:C	signature:(int argc,char *argv[])
