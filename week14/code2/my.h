@@ -10,5 +10,7 @@ struct sendval
 {
 	int n,s;
 };
+
+#define LOOP 100000000
 #define NUM 4
 

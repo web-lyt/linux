@@ -9,6 +9,6 @@
 struct sendval 
 {
 	int n,s;
-}
+};
 #define NUM 4
 

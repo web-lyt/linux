@@ -9,9 +9,9 @@ int main()
 	gettimeofday(&tv1,&tz);
 	for(i=0;i<100000;i++)
 	{
-		pid=fork();
+		tid=fork();
 	}
 	gettimeofday(&tv2,&tz);
-	printf("running time is %d\n",tv2.tc_usec-tv1.tc_usec);
+	printf("running time is %ld\n",tv2.tv_usec-tv1.tv_usec);
 	return 0;
 }
